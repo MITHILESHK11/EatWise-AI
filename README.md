@@ -14,12 +14,7 @@ EatWise is an AI-powered platform that helps you **scan food for safety**, **che
 
 ## 🚀 Live Demo
 👉 **Try the app here:**
-https://YOUR_CLOUD_RUN_URL/
-
----
-
-## 🎥 Demo Preview (GIF)
-> *(Add a GIF here once available)*
+[https://YOUR_CLOUD_RUN_URL/](https://eatwise-ai-497422153083.us-west1.run.app/)
 
 ---
 
