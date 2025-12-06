@@ -170,9 +170,6 @@ gcloud run deploy eatwise \
 ### 📄 Documentation
 - [README.md](README.md)
 
-
-```
-
 ---
 
 # 🔮 Future Enhancements
