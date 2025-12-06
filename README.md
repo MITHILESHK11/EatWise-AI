@@ -131,20 +131,46 @@ gcloud run deploy eatwise \
 
 ---
 
-# 🧩 Folder Structure
+## 🧩 Folder Structure
 
-```
-EatWise/
- ├── MainPage.png
- ├── ProductReview.png
- ├── DietPlanner.png
- ├── HealthManager.png
- ├── Chatbot.png
- ├── App.tsx
- ├── index.tsx
- ├── types.ts
- ├── package.json
- └── README.md
+### 📁 components/
+- [AnalysisResult.tsx](components/AnalysisResult.tsx)
+- [ChatBot.tsx](components/ChatBot.tsx)
+- [DietPlanner.tsx](components/DietPlanner.tsx)
+- [HealthTracker.tsx](components/HealthTracker.tsx)
+- [HistoryView.tsx](components/HistoryView.tsx)
+- [LandingPage.tsx](components/LandingPage.tsx)
+- [Loading.tsx](components/Loading.tsx)
+- [LoginView.tsx](components/LoginView.tsx)
+- [ProfileView.tsx](components/ProfileView.tsx)
+- [SettingsView.tsx](components/SettingsView.tsx)
+
+### 📁 services/
+- [authService.ts](services/authService.ts)
+- [geminiService.ts](services/geminiService.ts)
+
+### 📁 Root Files
+- [App.tsx](App.tsx)
+- [index.tsx](index.tsx)
+- [index.html](index.html)
+- [types.ts](types.ts)
+- [package.json](package.json)
+- [tsconfig.json](tsconfig.json)
+- [vite.config.ts](vite.config.ts)
+- [metadata.json](metadata.json)
+
+### 📁 Assets
+- [MainPage.png](MainPage.png)
+- [ProductReview.png](ProductReview.png)
+- [DietPlanner.png](DietPlanner.png)
+- [HealthManager.png](HealthManager.png)
+- [Chatbot.png](Chatbot.png)
+- [SystemArchitecture.png](SystemArchitecture.png)
+
+### 📄 Documentation
+- [README.md](README.md)
+
+
 ```
 
 ---
