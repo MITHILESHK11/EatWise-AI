@@ -391,7 +391,7 @@ const App: React.FC = () => {
       </main>
 
       {/* Floating Bottom Navigation Island */}
-      {view !== 'scan' && view !== 'result' && view !== 'landing' && view !== 'profile' && (
+      {view !== 'scan' && view !== 'result' && view !== 'profile' && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 w-full max-w-sm px-4">
           <div className={`flex justify-around items-center p-2 rounded-3xl shadow-2xl backdrop-blur-xl border ${
             theme === 'dark' 

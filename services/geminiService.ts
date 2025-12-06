@@ -1,13 +1,23 @@
 import { GoogleGenAI, Type, Schema, Chat } from "@google/genai";
 import { SmartFoodAnalysis, DietPlan, UserHealthProfile, DailyStats } from "../types";
 
-const apiKey = process.env.API_KEY;
+// Safely access the API key. 
+// In some browser environments 'process' might be undefined, causing a ReferenceError.
+const getApiKey = (): string => {
+  try {
+    if (typeof process !== 'undefined' && process.env?.API_KEY) {
+      return process.env.API_KEY;
+    }
+  } catch (e) {
+    // Ignore error if process is not defined
+  }
+  return "";
+};
 
-if (!apiKey) {
-  console.error("API_KEY is missing from environment variables.");
-}
+const apiKey = getApiKey();
 
-const ai = new GoogleGenAI({ apiKey: apiKey || 'dummy-key' });
+// Initialize the Google GenAI client
+const ai = new GoogleGenAI({ apiKey });
 
 // --- Image Analysis Schema (Existing) ---
 const analysisSchema: Schema = {
