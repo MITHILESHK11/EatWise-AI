@@ -1,0 +1,7 @@
+{
+  "name": "EatWise AI",
+  "description": "AI-powered food safety, nutrition, and affordability assistant for families.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
